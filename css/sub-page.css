@@ -1,0 +1,165 @@
+@charset "utf-8";
+@import url(common/reset.css);
+@import url(common/header.css);
+@import url(common/footer.css);
+
+#wrap{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+.container .inner-container{
+    width: 100%;
+    height: auto;
+}
+.container .inner-container{
+    width: 100%;
+    height: auto;
+}
+.container .inner-container .sub-page{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+.container .inner-container .sub-page .sp-sections{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    position: relative;
+}
+.container .inner-container .sub-page .sp-sections .spItems{
+    width: 20px;
+    height: 100%;
+    border: 1px solid #f00;
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+.container .inner-container .sub-page .sp-sections .section{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #00f;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con{
+    width: 100%;
+    height: 86%;
+    border: 1px solid;
+    margin-top: 93.4px;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .sec-top-box{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    text-align: center;
+    background-color: #0b1824;
+}
+
+.container .inner-container .sub-page .sp-sections .section .sec-con .sec-top-box h1 a{
+    color: #fff;
+    display: block;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .sec-top-box h1 a span{
+    display: block;
+
+}
+
+.container .inner-container .sub-page .sp-sections .section .sec-con .sec-top-box h1 a:hover{
+    text-decoration: underline;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery{
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    position: relative;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul{
+    width: 400%;
+    height: 100%;
+    border: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li{
+    width: 25%;
+    height: auto;
+    border: 1px solid;
+    position: relative;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li .aBox{
+    width: 500px;
+    height: 50px;
+    border: 1px solid;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,30%);
+}
+
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li:first-child .aBox{
+    top: 70%;
+    left: 10%;
+    transform: translate(0);
+}
+
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li .aBox .aBoxCon{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li .aBox .aBoxCon>a{
+    width: 100%;
+    height: 100%;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li .aBox .aBoxCon>a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #111;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transition: all .5s;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li .aBox .aBoxCon:hover>a::after{
+    top: 0;
+}
+
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li .aBox .aBoxCon>a>span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    z-index: 11;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li .aBox .aBoxCon:hover>a>span{
+    color: #fff;
+}
+
+
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li ul.sectionMenu{
+    width: 300px;
+    height: 100%;
+    border: 1px solid;
+    position: absolute;
+    top: 0;
+    right: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .inner-container .sub-page .sp-sections .section .sec-con .secGallery>ul>li ul.sectionMenu>li{
+    width: 100%;
+    height: 25%;
+    border: 1px solid;
+}

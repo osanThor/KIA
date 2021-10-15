@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIA Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/login.js" defer></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner-header">
+                <div class="nav">
+                    <div class="top-nav">
+                        <div class="left-top-nav">
+                            <ul>
+                                <li class="sideBar"><span class="sideBar"></span><p>메뉴</p></li>
+                                <li><a href="#"><span class="globe"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="logo">
+                            <a href="http://jadw9715.dothome.co.kr/project-KIA/index.html">
+                                <span class="hLogo"></span>
+                            </a>
+                        </div>
+                        <div class="right-top-nav">
+                            <ul>
+                                <li><span class="search"></span></li>
+                                <li><a href="#"><span class="location"></span></a></li>
+                                <li><a href="http://jadw9715.dothome.co.kr/project-KIA/login.html"><span class="login"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="gnb">
+                            <ul>
+                                <li><a href="#">EV</a>
+                                    <ul class="gnbSub">
+                                        <li><a href="#">EV6</a></li>
+                                        <li><a href="#">니로 EV</a></li>
+                                        <li><a href="#">봉고III EV</a></li>
+                                        <li><a href="#">탑차 EV</a></li>
+                                        <li><a href="#">성력 EV</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">승용</a>
+                                    <ul class="gnbSub">
+                                        <li><a href="#">모닝</a></li>
+                                        <li><a href="#">레이</a></li>
+                                        <li><a href="#">K3</a></li>
+                                        <li><a href="#">K3 GT</a></li>
+                                        <li><a href="#">K5</a></li>
+                                        <li><a href="#">K5 하이브리드</a></li>
+                                        <li><a href="#">스팅어</a></li>
+                                        <li><a href="#">K8</a></li>
+                                        <li><a href="#">K8 하이브리드</a></li>
+                                        <li><a href="#">K9</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">RV</a>
+                                    <ul class="gnbSub">
+                                        <li><a href="#">니로</a></li>
+                                        <li><a href="#">니로 플러그인 하이브리드</a></li>
+                                        <li><a href="#">셀토스</a></li>
+                                        <li><a href="#">스포티지</a></li>
+                                        <li><a href="#">스포티지 하이브리드</a></li>
+                                        <li><a href="#">쏘렌토</a></li>
+                                        <li><a href="#">쏘렌토 하이브리드</a></li>
+                                        <li><a href="#">모하비</a></li>
+                                        <li><a href="#">카니발</a></li>
+                                        <li><a href="#">카니발 하이리무진</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">상용/택시/버스</a>
+                                    <ul class="gnbSub">
+                                        <li><a href="#">K5 택시</a></li>
+                                        <li><a href="#">K8 택시</a></li>
+                                        <li><a href="#">봉고III트럭</a></li>
+                                        <li><a href="#">탑차</a></li>
+                                        <li><a href="#">건설</a></li>
+                                        <li><a href="#">성력</a></li>
+                                        <li><a href="#">수송</a></li>
+                                        <li><a href="#">그랜버드</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-nav">
+                    <div class="sub-nav-con">
+                        <span class="nav-con"></span>
+                    </div>
+                </div>
+                <div class="windowSearch">
+                    <div class="searchCon">
+                        <span class="searchClose"></span>
+                        <form action="searchOk.do" method="POST" name="searchBox" id="searchBox">
+                            <input type="search" name="search" id="search" placeholder="검색...">
+                            <input type="button" name="searchOk" value="searchOk" id="searchOkBtn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-con">
+            <span class="close"></span>
+            <div class="menuNav">
+                <div class="top-menuNav">
+                    <div class="left-menuNav">
+                        <ul>
+                            <li><a href="#">차량</a></li>
+                            <li><a href="#">구매정보</a></li>
+                            <li><a href="#">체험센터</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-menuNav">
+                        <ul>
+                            <li><a href="#">브랜드</a></li>
+                            <li><a href="#">KIA EV</a></li>
+                            <li><a href="#">기아 멤버스</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-menuNav">
+                    <ul>
+                        <li><a href="#">온라인 견적</a></li>
+                        <li><a href="#">카탈로그/가격표</a></li>
+                        <li><a href="#">이달의 구매혜택</a></li>
+                        <li><a href="#">구매 상담 신청</a></li>
+                        <li><a href="#">시승 예약</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="windowLogin">
+            <div class="loginCon">
+                <form action="loginOk.do" method="POST" name="loginForm" id="loginForm">
+                    <div class="login-title">
+                        <h1 class="login-title-con">
+                            <img src="img/logo.png" alt="login-logo">
+                        </h1>
+                        <p class="myKia">My KIA</p>
+                    </div>
+                    <div class="login-con">
+                        <label>이메일 로그인</label>
+                        <input type="email" name="userId" id="userId" placeholder="이메일 주소">
+                        <input type="password" name="userPw" id="userPw" placeholder="비밀번호">
+                        <input type="button" name="loginBtn" id="loginBtn" value="로그인">
+                        <p><a href="#">아이디 찾기</a><a href="#">비밀번호 초기화</a></p>
+                        <p>기아 통합계정에 가입하지 않으셨나요?<a href="http://jadw9715.dothome.co.kr/project-KIA/join.html">회원가입</a></p>
+                    </div>
+                </form>
+                <p>COPYRIGHT © KIA CORP. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <div class="login">
+                    <div class="login-title">
+                        <div class="login-title-top">
+                            <h1 class="logo"><img src="img/logo-white.png" alt="메인로고"></h1>
+                            <h2>
+                                로그인
+                            </h2>
+                        </div>
+                    </div>
+                    <form action="loginOk.do" method="POST" id="loginOkForm">
+                        <ul>
+                            <li class="formTitle">
+                                <h1>이메일 로그인</h1>
+                            </li>
+                            <li class="inputClass">
+                                <input type="email" name="userIdMain" id="userIdMain" placeholder="이메일 아이디">
+                            </li>
+                            <li class="inputClass">
+                                <input type="password" name="userPwMain" id="userPwMain" placeholder="비밀번호">
+                            </li>
+                            <li class="inputClass">
+                                <input type="button" name="loginOkBtn" id="loginOkBtn" value="로그인">
+                            </li>
+                            <li>
+                                <p><a href="#">아이디 찾기</a><a href="#">비밀번호 초기화</a></p>
+                                <p>기아 통합계정에 가입하지 않으셨나요?<a href="http://jadw9715.dothome.co.kr/project-KIA/join.html">회원가입</a></p>
+                            </li>
+                        </ul>
+                    </form>
+                    <p>COPYRIGHT © KIA CORP. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="fSections">
+                    <div class="fSection sec1">
+                        <h1 class="fSecLogo"><img src="img/logo-white.png" alt="logo"></h1>
+                        <div class="footer-con">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">온라인 견적</a></li>
+                                    <li><a href="#">구매 상담 신청</a></li>
+                                    <li><a href="#">이달의 구매혜택</a></li>
+                                    <li><a href="#">시승 예약</a></li>
+                                    <li><a href="#">카탈로그/가격표</a></li>
+                                    <li><a href="#">영업망 안내</a></li>
+                                    <li><a href="#">기아렌터카</a></li>
+                                    <li><a href="#">모델 비교</a></li>
+                                    <li><a href="#">진행중인 이벤트</a></li>
+                                    <li><a href="#">고객센터</a></li>
+                                    <li><a href="#">사이트맵</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-models">
+                                <div class="model-box">
+                                    <div class="model-box-title">EV</div>
+                                    <ul>
+                                        <li><a href="#">EV6</a></li>
+                                        <li><a href="#">니로 EV</a></li>
+                                        <li><a href="#">봉고 III EV</a></li>
+                                        <li><a href="#">탑차 EV</a></li>
+                                        <li><a href="#">성력 EV</a></li>
+                                    </ul>
+                                </div>
+                                <div class="model-box">
+                                    <div class="model-box-title">승용</div>
+                                    <ul>
+                                        <li><a href="#">모닝</a></li>
+                                        <li><a href="#">레이</a></li>
+                                        <li><a href="#">K3</a></li>
+                                        <li><a href="#">K3 GT</a></li>
+                                        <li><a href="#">K5</a></li>
+                                        <li><a href="#">K5 HEV</a></li>
+                                        <li><a href="#">스팅어</a></li>
+                                        <li><a href="#">K8</a></li>
+                                        <li><a href="#">K8 HEV</a></li>
+                                        <li><a href="#">K9</a></li>
+                                    </ul>
+                                </div>
+                                <div class="model-box">
+                                    <div class="model-box-title">RV</div>
+                                    <ul>
+                                        <li><a href="#">니로 HEV</a></li>
+                                        <li><a href="#">니로 PHEV</a></li>
+                                        <li><a href="#">셀토스</a></li>
+                                        <li><a href="#">스포티지</a></li>
+                                        <li><a href="#">스포티지 HEV</a></li>
+                                        <li><a href="#">쏘렌토</a></li>
+                                        <li><a href="#">쏘렌토 HEV</a></li>
+                                        <li><a href="#">모하비</a></li>
+                                        <li><a href="#">카니발</a></li>
+                                        <li><a href="#">카니발 하이리무진</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="Award">
+                                <div class="Award-title">
+                                    <h2>Award</h2>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="aWardImg"><img src="img/f_mark05.webp" alt="1"></div>
+                                        <div class="aWardCon">
+                                            <p>21년 국가고객만족도(NCSI)
+                                                RV(6년 연속), 경형(7년 연속),
+                                                중형(2년 연속), 대형승용부문 1위</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="aWardImg"><img src="img/f_mark01.webp" alt="2"></div>
+                                        <div class="aWardCon">
+                                            <p>21년 한국 산업의 서비스 품질지수
+                                                우수 콜센터 선정 (18년 연속)</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="aWardImg"><img src="img/f_mark02.webp" alt="3"></div>
+                                        <div class="aWardCon">
+                                            <p>20년 한국산업의 서비스 품질지수
+                                                자동차 A/S부문 1위(7년 연속)</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="aWardImg"><img src="img/f_mark03.webp" alt="4"></div>
+                                        <div class="aWardCon">
+                                            <p>21년 대한민국 국가브랜드 대상
+                                                자동차 멤버십 부문 1위(10년 연속)</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="aWardImg"><img src="img/f_mark07.webp" alt="5"></div>
+                                        <div class="aWardCon">
+                                            <p>20년 한국서비스품질지수(KS-SQI)
+                                                자동차 판매서비스 부문 1위</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="aWardImg"><img src="img/f_mark06.webp" alt="6"></div>
+                                        <div class="aWardCon">
+                                            <p>웹 접근성 품질인증</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fSection sec2">
+                        <div class="footer-con2">
+                            <div class="fCon1">
+                                <div class="fCon1Left">
+                                    <ul>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="fCon1Right">
+                                    <ul>
+                                        <li><a href=""></a> 한국</li>
+                                        <li>
+                                            <a href="#">
+                                                Famliy Site
+                                            </a>
+                                            <div class="familySub">
+                                                <ul>
+                                                    <li><a href="#">현대자동차그룹</a></li>
+                                                    <li><a href="#">브랜드</a></li>
+                                                    <li><a href="#">기아멤버스</a></li>
+                                                    <li><a href="#">기아블로그 'PLAY Kia'</a></li>
+                                                    <li><a href="#">기아 드라이빙 아카데미</a></li>
+                                                    <li><a href="#">인재 체용</a></li>
+                                                    <li><a href="#">IR</a></li>
+                                                    <li><a href="#">동반 성장</a></li>
+                                                    <li><a href="#">지속가능경영</a></li>
+                                                    <li><a href="#">글로벌경영연구소</a></li>
+                                                    <li><a href="#">기아 타이거즈</a></li>
+                                                    <li><a href="#">기아 군용</a></li>
+                                                    <li><a href="#">Kia Connect</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fCon2">
+                                <div class="topBox">
+                                    <ul>
+                                        <li><a href="#">개인정보 처리방침</a></li>
+                                        <li><a href="#">이용약관</a></li>
+                                        <li><a href="#">윤라경영 사이버감사실</a></li>
+                                        <li><a href="#">전자공고</a></li>
+                                        <li><a href="#">사이트맵</a></li>
+                                    </ul>
+                                </div>
+                                <div class="bottomBox">
+                                    <p>
+                                        사업자 기아㈜ 대표 송호성, 최준영 사업자등록번호 119-81-02316 06797 서울특별시 서초구 헌릉로 12 (양재동)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="fCon3">
+                                <div class="leftBox">
+                                    <a href="http://jadw9715.dothome.co.kr/project-KIA/index.html">홈</a>
+                                </div>
+                                <div class="rightBox">
+                                    <p>
+                                        Ⓒ Kia CORP. ALL RIGHTS RESERVED.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
